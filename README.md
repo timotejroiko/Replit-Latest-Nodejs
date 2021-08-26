@@ -1,5 +1,5 @@
 # Replit-Latest-Nodejs
 
-Run the latest node.js by downloading the tarball from the unofficial builds
+Run the latest node.js by directly downloading the tarball from node's repositories including unofficial builds.
 
-Edit the run.sh file to your desired node.js version
+See the run.sh file for instructions and to select your desired node.js version
