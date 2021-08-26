@@ -22,7 +22,7 @@ PATH=./$FILE/bin:${PATH}
 if [ -d "./$FILE" ] 
 then
 	./${FILE}/bin/npm install
-    ./${FILE}/bin/node .
+   	./${FILE}/bin/node .
 	if [ $? -eq 139 ]
 	then
 		rm -r ${FILE}
@@ -33,7 +33,7 @@ then
 		./${FILE}/bin/node .
 	fi
 else
-    echo "Downloading $FILE"
+   	echo "Downloading $FILE"
 	wget -O- ${MIRROR}/${VERSION}/${FILE}.tar.xz | tar -xJf- --one-top-level=./
 	./${FILE}/bin/npm install
 	./${FILE}/bin/node .
