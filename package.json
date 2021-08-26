@@ -1,0 +1,12 @@
+{
+  "name": "latest-nodejs-bash",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Timotej Valentin Rojko",
+  "license": "MIT",
+  "description": "Run the latest node.js version",
+  "dependencies": {}
+}
